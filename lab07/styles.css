@@ -1,0 +1,9 @@
+body {color: #2B3467;
+background-color: #FAF0D7;}
+h1, h2 {color: #245953;}
+a{color:#408E91;}
+nav{background-color: #F3E8FF;
+padding: 10px;
+margin-bottom: 30px;}
+nav a{color: #89375F;}
+nav a:hover{background-color: #E49393;}
