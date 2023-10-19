@@ -1,0 +1,18 @@
+body {color: #2B3467;
+background-color: #FAF0D7;}
+h1, h2 {color: #245953;}
+a{color:#408E91;}
+nav{background-color: #F3E8FF;
+padding: 10px;
+margin-bottom: 30px;}
+nav a{color: #89375F;}
+nav a:hover{background-color: #E49393;}
+.quote {float:right; margin-top: 0px;}
+
+
+.flex1 {display:flex; margin-left: 60px; margin-right: 60px; padding: 25px; background-color: #F3E8FF; border-radius:3em;}
+.flex2 {display:flex; margin-bottom: 60px; margin-left: 60px; margin-right: 60px; margin-top: 60px; padding: 25px; background-color: #F3E8FF; border-radius:3em;}
+
+.address, .info, .form, .map {padding: 25px;}
+
+
