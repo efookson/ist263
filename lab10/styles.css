@@ -11,8 +11,8 @@ nav a:hover{background-color: #E49393;}
 .quote {float:right; margin-top: 0px;}
 
 
-.flex1 {display:flex; margin-left: 60px; margin-right: 60px; padding: 25px; background-color: #F3E8FF; border-radius:3em;}
-.flex2 {display:flex; margin-bottom: 60px; margin-left: 60px; margin-right: 60px; margin-top: 60px; padding: 25px; background-color: #F3E8FF; border-radius:3em;
+.flex1 {display:flex; margin-left: 15px; margin-right: 15px; padding: 25px; background-color: #F3E8FF; border-radius:3em;}
+.flex2 {display:flex; margin-bottom: 15px; margin-left: 15px; margin-right: 15px; margin-top: 15px; padding: 25px; background-color: #F3E8FF; border-radius:3em;
 flex-wrap: wrap;}
 
 .address, .info, .form, .map {padding: 25px;}
