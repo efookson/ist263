@@ -32,14 +32,13 @@ flex-wrap: wrap;}
 }
 
 .skip{
-    background-color: #b7ccea;
+    background-color: #2da4a4;
     padding: 5px;
     border: 1px solid #000000;
     text-decoration: none;
     position: absolute; 
     top: 10px;
     left: -999px; 
-    color: #000000;
 }
 .skip:focus{
     left: 10px;
