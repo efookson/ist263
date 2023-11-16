@@ -23,12 +23,19 @@ iframe {margin-bottom: 50px;}
     left: 10px;
 }
 
+li {list-style-type: none; margin-bottom: 30px;}
+h2 {color: #ff9ac0; margin-top: 60px;}
+h3 {color: #ffb1cf;}
+.months {display: flex; justify-content: center; padding: 10px;}
+.jan {margin-left: 200px;}
+.dec {margin-left: -50px;}
+
 @media only screen and (max-width: 801px) {
     p {margin-left: 75px; margin-right: 75px; margin-top:30px; margin-bottom:30px;}
     iframe {max-width: 60%;}
     .navi a {float: center; display:block; text-align: center;}
-    .dec {margin-left: 100px;}
-    h3 {margin-left: 50px;}
+    .months {display:block;}
+    .jan {margin-left: -50px;}
 }
 
 @media only screen and (min-width: 800px) {
@@ -36,9 +43,3 @@ iframe {margin-bottom: 50px;}
     iframe {min-width: 60%;}
 }
 
-li {list-style-type: none; margin-bottom: 30px;}
-h2 {color: #ff9ac0; margin-top: 60px;}
-h3 {color: #ffb1cf;}
-.months {display: flex; justify-content: center; padding: 10px;}
-.jan {margin-left: 200px;}
-.dec {margin-left: -50px;}
