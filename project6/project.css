@@ -27,8 +27,8 @@ iframe {margin-bottom: 50px;}
     p {margin-left: 75px; margin-right: 75px; margin-top:30px; margin-bottom:30px;}
     iframe {max-width: 60%;}
     .navi a {float: center; display:block; text-align: center;}
-    .dec {margin-left: 70px;}
-    h3 {margin-left: 25px;}
+    .dec {margin-left: 100px;}
+    h3 {margin-left: 50px;}
 }
 
 @media only screen and (min-width: 800px) {
