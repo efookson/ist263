@@ -34,8 +34,9 @@ iframe {margin-bottom: 50px;}
     iframe {min-width: 60%;}
 }
 
-li {list-style-type: none;}
+li {list-style-type: none; margin-bottom: 30px;}
 h2 {color: #ff9ac0; margin-top: 60px;}
+h3 {color: #ffb1cf;}
 .months {display: flex; justify-content: center; padding: 10px;}
 .jan {margin-left: 200px;}
 .dec {margin-left: -50px;}
