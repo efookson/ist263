@@ -28,6 +28,7 @@ iframe {margin-bottom: 50px;}
     iframe {max-width: 60%;}
     .navi a {float: center; display:block; text-align: center;}
     .dec {margin-left: 70px;}
+    h3 {margin-left: 25px;}
 }
 
 @media only screen and (min-width: 800px) {
