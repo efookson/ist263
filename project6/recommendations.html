@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lizzy's Playlist Site</title>
+    <link rel="stylesheet" href="project.css">
 </head>
 <body>
     <header><h1>Lizzy's Playlist Site</h1>
-    <nav>
-        <a href="home.html">Home |</a>
-        <a href="artists.html">Artists |</a>
+    <nav class="navi">
+        <a href="#main3" class="skip" tabindex="1">Skip to Content</a>
+        <a href="home.html">Home </a>
+        <a href="artists.html">Artists </a>
         <a href="recommendations.html">Recommendations</a>
     </nav>
     </header>
 
     <main>
-    <h2>Suggestions Form</h2>
+    <h2 id="main3">Suggestions Form</h2>
     <form action="https://formspree.io/f/meqbdlkl" method="post">
-    <label for="suggestion">Submit your suggestions here:</label> <br>
+    <label class="form1" for="suggestion">Submit your suggestions here:</label> <br>
         <textarea id="suggestion" name="suggestion" row="3" cols="30"></textarea> <br>
+    <br>
+    <br>
     <label for="username">Spotify username (if applicable):</label> <br>
             <textarea id="username" name="username" row="3" cols="30"></textarea> <br>
             <input type="submit" value="send form">
@@ -28,8 +32,8 @@
 
     <section>
     <h2>Upcoming Concerts</h2>
-    <div>
-    <div>
+    <div class="months">
+    <div class="dec">
         <h3>December</h3>
         <ul>
             <li>Two Friends<br> Marquee New York<br> New York, NY <br>December 1st 11:00 pm</li><br>
@@ -40,13 +44,13 @@
             <li>Gus Dapperton <br>Union Transfer <br>Philadelphia, PA<br> December 7th 7:00 pm</li> 
         </ul>
     </div>
-    <div>
+    <div class="jan">
         <h3>January</h3>
         <ul>
             <li>Billy Joel <br> Madison Square Garden <br> New York, NY <br> January 11th 8:00pm</li><br>
             <li>Torres <br> The Foundry <br> Philadelphia, PA <br> January 25th 8:00pm</li><br>
             <li>Madonna <br> Wells Fargo Center <br> Philadelphia, PA <br> January 25th 8:30 pm</li><br>
-            <li>DJ Logic & Friends Featuring Christian McBride and James Hurt <br> Blue Note Jazz Club <br> New York, NY <br> January 27th 8:00pm</li><br>
+            <li>DJ Logic & Friends <br> Blue Note Jazz Club <br> New York, NY <br> January 27th 8:00pm</li><br>
             <li>Playboi Crati <br> Madison Square Garden <br> New York, NY <br> January 31st 7:30 pm</li><br>
             <li>Briston Maroney <br> Webster Hall <br> New York, NY <br> January 31st 8:00pm</li>
         </ul>

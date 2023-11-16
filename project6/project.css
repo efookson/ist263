@@ -5,7 +5,7 @@ body {text-align: center;
 h1 {color:#ff4b91;}
 footer {text-align: left;}
 p {margin-left: 200px; margin-right: 200px; margin-top:60px; margin-bottom:60px;}
-nav a {color: #ffcd4b; text-decoration: none; margin-right: 100px; margin-left: 100px;}
+nav a {color: #ffcd4b; text-decoration: none; margin-right: 70px; margin-left: 150px;}
 nav a:hover {background-color: #ff7676;}
 iframe {margin-bottom: 50px;}
 
@@ -23,12 +23,19 @@ iframe {margin-bottom: 50px;}
     left: 10px;
 }
 
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 801px) {
     p {margin-left: 75px; margin-right: 75px; margin-top:30px; margin-bottom:30px;}
     iframe {max-width: 60%;}
+    .navi a {float: center; display:block; text-align: center;}
 }
 
-@media only screen and (min-width: 13365px) {
+@media only screen and (min-width: 800px) {
     p {margin-left: 200px; margin-right: 200px; margin-top:60px; margin-bottom:60px;}
     iframe {min-width: 60%;}
 }
+
+li {list-style-type: none;}
+h2 {color: #ff9ac0; margin-top: 60px;}
+.months {display: flex; justify-content: center; padding: 10px;}
+.jan {margin-left: 200px;}
+.dec {margin-left: -50px;}
