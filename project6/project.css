@@ -1,4 +1,4 @@
-body {text-align: center;
+body {
     color: #ffffff;
     background-color: #0802A3;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
@@ -8,7 +8,7 @@ p {margin-left: 200px; margin-right: 200px; margin-top:60px; margin-bottom:60px;
 nav a {color: #ffcd4b; text-decoration: none; margin-right: 70px; margin-left: 150px;}
 nav a:hover {background-color: #ff7676;}
 iframe {margin-bottom: 50px;}
-
+header, #playlist {text-align: center;}
 .skip{
     color: #ffffff;
     background-color: #000000;
@@ -32,14 +32,32 @@ h3 {color: #ffb1cf;}
 
 @media only screen and (max-width: 801px) {
     p {margin-left: 75px; margin-right: 75px; margin-top:30px; margin-bottom:30px;}
-    iframe {max-width: 60%;}
+    iframe {max-width: 100%;}
     .navi a {float: center; display:block; text-align: center; margin-right: 0px; margin-left: 0px;}
     .months {display:block;}
     .jan {margin-left: -50px;}
+    #main {margin-left: 10px; margin-right: 10px;}
+    #tameflex, #fikeflex, #eraflex, #remiflex, #wallowflex, #miamiflex, #weekflex, #abbaflex, #pitflex, #rihflex {display:block;}
 }
 
 @media only screen and (min-width: 800px) {
     p {margin-left: 200px; margin-right: 200px; margin-top:60px; margin-bottom:60px;}
     iframe {min-width: 60%;}
 }
+#background {
+    margin-left: 100px;
+    margin-right: 100px;
+} 
+#center {text-align: center;}
+
+#tameflex{display: flex;}
+#fikeflex{display: flex;}
+#eraflex{display: flex;}
+#remiflex{display: flex;}
+#wallowflex{display: flex;}
+#miamiflex{display: flex;}
+#weekflex{display: flex;}
+#abbaflex{display: flex;}
+#pitflex{display: flex;}
+#rihflex{display: flex;}
 
