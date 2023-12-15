@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizzy's Playlist Site</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <script>
+        let slideIndex = 0;
+
+        function showSlides() {
+            let i;
+            const slides = document.getElementsByClassName("mySlides");
+            
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 5000);
+        }
+
+        window.onload = showSlides;
+    </script>
+</head>
+<body>
+    <header><h1>Lizzy's Playlist Site</h1>
+    <nav class="navi">
+        <a href="#main3" class="skip" tabindex="1">Skip to Content</a>
+        <a href="home.html">Home </a>
+        <a href="artists.html">Artists </a>
+        <a href="recommendations.html">Recommendations</a>
+    </nav>
+    </header>
+    <div id="center">
+    <main>
+    <h2 id="main3">Suggestions Form</h2>
+    <form action="https://formspree.io/f/meqbdlkl" method="post">
+    <label class="form1" for="suggestion">Submit your song and artist suggestions here:</label> <br>
+        <textarea id="suggestion" name="suggestion" cols="30"></textarea> <br>
+    <br>
+    <br>
+    <label for="username">Spotify username (if applicable):</label> <br>
+            <textarea id="username" name="username" cols="30"></textarea> <br>
+            <input type="submit" value="send form">
+    </form> 
+    <p>Thank You!</p>
+    </main> 
+    <div class="slideshow-container">
+            <div class="mySlides">
+                <img src="image1.jpg" alt="Dayglow Concert">
+            </div>
+            <div class="mySlides">
+                <img src="image2.jpg" alt="Dayglow Concert">
+            </div>
+            <div class="mySlides">
+                <img src="image3.jpg" alt="Acraze Concert">
+            </div>
+            <div class="mySlides">
+                <img src="image4.jpg" alt="Coin Concert">
+            </div>
+            <div class="mySlides">
+                <img src="image5.jpg" alt="Declan McKenna Concert">
+            </div>
+            <div class="mySlides">
+                <img src="image6.jpg" alt="Tame Imapala Concert">
+            </div>
+    </div>
+    <section>
+    <h2>Upcoming Concerts</h2>
+    <div class="months">
+    <div class="dec">
+        <h3>December:</h3>
+        <ul>
+            <li><strong>Two Friends</strong><br> Marquee New York<br> New York, NY <br>December 1st 11:00 pm</li>
+            <li><strong>Sungazer</strong><br> The Wonder Bar <br> Asbury Park, NJ <br>December 2nd 7:00pm</li>
+            <li><strong>DaBaby</strong><br> Westchester County Center <br> White Plains, NY <br> December 2nd 8:00 pm</li>
+            <li><strong>Aqua</strong><br> The Fillmore <br> Philadelphia, PA <br> December 5th 8:00pm </li>
+            <li><strong>Jonas Brothers</strong><br> Prudential Center <br> Newark, NJ <br> December 6th 7:00pm</li>
+            <li><strong>Gus Dapperton </strong><br>Union Transfer <br>Philadelphia, PA<br> December 7th 7:00 pm</li> 
+        </ul>
+    </div>
+    <div class="jan">
+        <h3>January:</h3>
+        <ul>
+            <li><strong>Billy Joel</strong><br> Madison Square Garden <br> New York, NY <br> January 11th 8:00pm</li>
+            <li><strong>Torres </strong><br> The Foundry <br> Philadelphia, PA <br> January 25th 8:00pm</li>
+            <li><strong>Madonna </strong><br> Wells Fargo Center <br> Philadelphia, PA <br> January 25th 8:30 pm</li>
+            <li><strong>DJ Logic & Friends </strong><br> Blue Note Jazz Club <br> New York, NY <br> January 27th 8:00pm</li>
+            <li><strong>Playboi Crati </strong><br> Madison Square Garden <br> New York, NY <br> January 31st 7:30 pm</li>
+            <li><strong>Briston Maroney</strong> <br> Webster Hall <br> New York, NY <br> January 31st 8:00pm</li>
+        </ul>
+    </div>
+    </div>
+    </section>
+    </div>
+    <footer>
+        <hr>
+        &copy;
+    </footer>
+</body>
+</html>

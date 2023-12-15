@@ -1,0 +1,57 @@
+body {
+    color: #ffffff;
+    background-color: #0802A3;
+    font-family: 'Raleway', sans-serif;}
+h1 {color:#ff4b91;}
+footer {text-align: left;}
+nav a {color: #ffcd4b; text-decoration: none; margin-right: 70px; margin-left: 150px;}
+nav a:hover {background-color: #ff7676;}
+iframe {margin-bottom: 50px;}
+header, #playlist {text-align: center;}
+.skip{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px;
+    left: -999px; 
+}
+.skip:focus{left: 10px;}
+li {list-style-type: none; margin-bottom: 30px;}
+h2 {color: #ff9ac0; margin-top: 60px;}
+h3 {color: #ffb1cf;}
+.months {display: flex; justify-content: center; padding: 10px;}
+.jan {margin-left: 200px;}
+.dec {margin-left: -50px;}
+@media only screen and (max-width: 801px) {
+    p {margin-left: 75px; margin-right: 75px; margin-top:30px; margin-bottom:30px;}
+    iframe {max-width: 100%;}
+    .navi a {float: center; display:block; text-align: center; margin-right: 0px; margin-left: 0px;}
+    .months {display:block;}
+    .jan {margin-left: -50px;}
+    #main, #main1 {margin-left: 10px; margin-right: 10px;}
+    #tameflex, #fikeflex, #eraflex, #remiflex, #wallowflex, #miamiflex, #weekflex, #abbaflex, #pitflex, #rihflex {flex-direction: column;}
+    #fikeflex1, #remiflex1, #miamiflex1, #abbaflex1, #rihflex1 {order:2;}
+    #fikeflex2, #remiflex2, #miamiflex2, #abbaflex2, #rihflex2 {order:1;}
+}
+@media only screen and (min-width: 800px) {
+    p {margin-left: 200px; margin-right: 200px; margin-top:60px; margin-bottom:60px;}
+    iframe {min-width: 60%;}
+    #fikeflex2, #remiflex2, #miamiflex2, #abbaflex2, #rihflex2 {margin-right: 100px;}
+    #tameflex1, #eraflex1, #wallowflex1, #weekflex1, #pitflex1 {margin-left: 100px;}
+}
+#center {text-align: center;}
+#tameflex, #fikeflex, #eraflex, #remiflex, #wallowflex, #wallowflex, #miamiflex, #weekflex, #abbaflex, #pitflex, #rihflex {display: flex;}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
