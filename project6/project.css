@@ -33,14 +33,14 @@ h3 {color: #ffb1cf;}
     .jan {margin-left: -50px;}
     #main, #main1 {margin-left: 10px; margin-right: 10px;}
     #tameflex, #fikeflex, #eraflex, #remiflex, #wallowflex, #miamiflex, #weekflex, #abbaflex, #pitflex, #rihflex {flex-direction: column;}
-    #flex1 {order:2;}
-    #flex2 {order:1;}
+    #fikeflex1, #remiflex1, #miamiflex1, #abbaflex1, #rihflex1 {order:2;}
+    #fikeflex2, #remiflex2, #miamiflex2, #abbaflex2, #rihflex2 {order:1;}
 }
 @media only screen and (min-width: 800px) {
     p {margin-left: 200px; margin-right: 200px; margin-top:60px; margin-bottom:60px;}
     iframe {min-width: 60%;}
-    #flex2 {margin-right: 100px;}
-    #flex3 {margin-left: 100px;}
+    #fikeflex2, #remiflex2, #miamiflex2, #abbaflex2, #rihflex2 {margin-right: 100px;}
+    #tameflex1, #eraflex1, #wallowflex1, #weekflex1, #pitflex1 {margin-left: 100px;}
 }
 #center {text-align: center;}
 #tameflex, #fikeflex, #eraflex, #remiflex, #wallowflex, #wallowflex, #miamiflex, #weekflex, #abbaflex, #pitflex, #rihflex {display: flex;}
